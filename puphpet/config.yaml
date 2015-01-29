@@ -67,6 +67,7 @@ server:
         - vim
         - htop
         - git
+        - curl
 users_groups:
     install: '1'
     groups: {  }
@@ -154,6 +155,7 @@ php:
             - cli
             - intl
             - mcrypt
+            - gd
         pear: {  }
         pecl:
             - pecl_http
